@@ -1,0 +1,104 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/*TYPOGRAPHY*/
+body {
+    font: 16px;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;  
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+}
+
+button {
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1260px;
+    width: 100%;
+}
+
+.row {
+    padding: 0 3em;
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: row;
+}
+
+
+/* ABOVE NAV DIVIDE INTO 3 COLUMNS-HORIZONTAL LINES INBETWEEN*/
+.abovenav {
+    background-color: pink;
+}
+
+
+
+
+
+/* NAVBAR PLACED FARRIGHT-WITH NAVICON/LOGO-HOMELINK ON THE LEFT */
+.nav {
+    background-color:pink;
+}
+
+
+
+
+
+
+
+
+/*HERO WITH DROPDOWN*/
+.hero {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color:#0f50cb;
+}
+
+
+
+
+
+
+
+/* HORIZONTAL LISTED GENRE-LINKS DROPDOWNS */
+#genres {
+
+}
+
+.selection {
+
+}
+
+
+
+
+
+
+/* PICTURE LINKS */
+.picturelinks {
+
+}
+
+.picturelinks__hover {
+
+}
+
+
+
+
+
+
+/* ARTICLE CONTENT */
+.section__one {
+
+}
+
