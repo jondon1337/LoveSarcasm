@@ -1,0 +1,92 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/*TYPOGRAPHY*/
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+button {
+    border-radius: 100;
+    color: rgba(148,187,233,1);
+    background-color: teal;
+
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1260px;
+    width: 80%;
+    border: green solid 3px;
+    
+}
+
+.row {
+    /*display flex => flex container*/
+    display: flex;
+    /*default = row*/
+    
+}
+
+.col {
+    /*these are now flex items which want to be as small as they can be - child of the row*/
+    border: yellow solid 2px;
+    width: 100%;
+}
+
+.topline {
+   margin: 0;
+   padding: 0;
+   
+}
+
+/* ABOVE NAV DIVIDE INTO 3 COLUMNS-HORIZONTAL LINES INBETWEEN*/
+.nav__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/*HERO WITH DROPDOWN*/
+.hero {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color:#0f50cb;
+    width: 100%;
+}
+
+
+.hero__text {
+   text-align: center;
+   width: 100%;
+}
+
+.hero__title {
+    text-align: center;
+    max-width: 100vw;
+}
+
+
+.selection__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+
+.section-one {
+   
+    flex-direction: row;
+}
