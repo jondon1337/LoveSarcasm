@@ -1,0 +1,148 @@
+*, * ::before, * ::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: normal;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 0;
+    
+}
+
+.topline {
+    background-color: black;
+    padding: .5em;
+    
+}
+
+.topline__list {
+    display: flex;
+   
+}
+
+.topline__item {
+    margin-left: 1em;
+    list-style: none;
+   
+    
+}
+
+#top a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.navicon__toggle {
+
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #23424a;
+    font-weight: 900;
+    background-color: #38cfd9;
+    padding: 0.75em 2em;
+    border-radius: 100px;
+  }
+
+.nav__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+.nav__item {
+    padding: 0;
+    
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(192, 47, 153, 1);
+    padding: 0 2em;
+
+    /*background: rgb(244,203,221);
+background: radial-gradient(circle, rgba(244,203,221,1) 0%, rgba(231,239,255,1) 100%);*/
+}
+
+#navigation a{
+    text-decoration: none;
+}
+
+/*@media (min-width: 540px;){
+    .nav__item,
+    .selection__list,
+    .section-one{
+        display: flex;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+} */
+
+.hero {
+    padding: 3em 0;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(231,239,255,1) 100%);
+    color: #fff;
+    border-radius: 5%;
+    
+}
+
+.hero p {
+    margin-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(192, 47, 153, 1);
+}
+
+.hero__title {
+    line-height: 1;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(192, 47, 153, 1);
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1260px;
+}
+
+.row {
+    diplay: flex;
+    flex-direction: row;
+    
+}
+
+.col {
+    width: 100%;
+    border: red solid 1px;
+}
+
+
+
+    
+
+
+.selection__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#genres a{
+    text-decoration: none;
+}
