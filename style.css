@@ -1,0 +1,182 @@
+*, * ::before, * ::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: normal;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 0;
+    
+}
+
+header {
+    background: #EFECEC ;
+    padding: 1em 0;
+    
+}
+
+ .container {
+    margin: 0 auto;
+    width: 80%
+    max-width: 1200px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.nav__title {
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: .7rem;
+    font-weight: 700;
+    gap: 1em;   
+   
+}
+
+
+
+.nav__link {
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1c1a1a;
+}
+
+
+.nav__link--btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #63e8f1;
+    font-weight: 900;
+    background-color: #fff;
+    padding: 0.75em 1em;
+    border-radius: 100px;
+    margin-left: 1em;
+  }
+
+#top__sbar {
+    font-size: .7rem;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: .5rem;
+    width: 35vw;
+    
+}
+
+/*@media (min-width: 540px;){
+    .nav__item,
+    .selection__list,
+    .section-one{
+        display: flex;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+} */
+
+.hero {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(231,239,255,1) 100%);
+    color: #fff;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.hero p {
+    text-shadow: 1px 1px 3px rgba(192, 47, 153, 1);
+    font-size: 1.5rem;
+    width: 100%;
+
+ 
+   
+    
+}
+  
+.hero__title  {
+    line-height: 1;
+    text-shadow: 1px 1px 3px rgba(192, 47, 153, 1);
+    font-size: 2rem;
+    
+ 
+  
+}
+
+.hero__pic {
+    display: inline-block;
+}
+
+.hero__btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgba(192, 47, 153, 1);
+    font-size: 1em;
+    font-weight: 900;
+    background-color: #fff;
+    padding: 0.75em 2em;
+    border-radius: 100px;
+    margin: 1 2em; 
+    align-self: flex-end;
+    color: #fff;
+}
+
+.selection__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ .genres a{
+     list-style: none;
+ }
+
+
+
+ /*Min-width: 320px (smaller phone viewpoints)
+ Min-width: 480px (small devices and most phones)
+ Min-width: 768px (most tablets)
+ Min-width: 992px (smaller desktop viewpoints)
+ Min-width: 1200px (large devices and wide screens)
+
+
+ mobile-first styles FTW 
+ @media all and (min-width: 50em) {
+     .column {
+         float: left;
+         width: 50%;
+    }
+}
+
+use ems for media queries 
+@media all and (min-width: 50em) {...}
